@@ -1,0 +1,11 @@
+What will the following code do? Why?
+int('3.1415')
+
+This code will return a ValueError. This is because the string '3.1415'
+does not represent a valid integer.
+
+To convert the string into an integer, one could could coerce it into a float
+first and then use the int function on it like so:
+
+number = float('3.1415')
+number = int(number)

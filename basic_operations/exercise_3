@@ -1,0 +1,6 @@
+What does the following code do? Why?
+print('5' + '10')
+
+The code will print 510. Since these numbers are in quotation marks, Python
+reads them as strings, not integers, and so the + operator concatenates
+them, returning 510.

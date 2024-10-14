@@ -1,0 +1,9 @@
+To what value does the following expression evaluate?
+'12' < '9'
+
+This expression will return True.
+
+These two operands are strings, not numbers, which means Python will compare
+them one character at a time from left-to-right. On the first comparison,
+Python rightly determines that 1 < 9, and so returns True immediately without
+evaluating the entirety of both strings.

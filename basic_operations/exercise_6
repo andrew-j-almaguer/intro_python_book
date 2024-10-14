@@ -1,0 +1,13 @@
+To what value does the following expression evaluate?
+'foo' == 'Foo'
+
+This expression will return False since case matters
+when comparing strings.
+
+To compare the characters of two strings only while ignoring case,
+one can use the casefold() function.
+
+For example:
+'foo'.casefold() == 'Foo'.casefold()
+
+This expression will return True.
