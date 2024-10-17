@@ -1,0 +1,11 @@
+Classify the following potential class names as idiomatic, non-idiomatic,
+or illegal. For the non-idiomatic and illegal names, explain your choice.
+
+Name            Status              Explanation
+index           non-idiomatic       Should use PascalCase
+CatName         idiomatic
+Lazy_Dog        non-idiomatic       Should not contain punctuation
+1ST             illegal             Must not begin with digit
+operand2        non-idiomatic       Should use PascalCase
+BigNumber3      idiomatic
+Πi              non-idiomatic       Should only use ASCII characters
