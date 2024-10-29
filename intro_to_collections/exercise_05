@@ -1,0 +1,4 @@
+How do the set types differ from the sequence types?
+
+Unlike sequences types, set types are unordered collections that do not support
+indexing.

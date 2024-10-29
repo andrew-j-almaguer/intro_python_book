@@ -1,0 +1,16 @@
+my_list = [1, 2, 3, [4, 5, 6]]
+another_list = list(my_list)
+
+Given the above code, answer the following questions and explain your answers:
+
+Are the lists assigned to my_list and another_list equal?
+Are the lists assigned to my_list and another_list the same object?
+Are the nested lists at index 3 of my_list and another_list equal?
+Are the nested lists at index 3 of my_list and another_list the same object?
+Don't write any code for this exercise.
+
+
+Yes, the list are equal. No, they are not the same object. The nested lists are
+both equal and the same object. This is because the list constructor created a
+shallow copy of the nested list, which means it is not treated as a new nested
+list, but merely a reference to the original.

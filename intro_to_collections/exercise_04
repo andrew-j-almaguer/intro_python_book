@@ -1,0 +1,3 @@
+Why can we treat strings as sequences?
+
+Though not true collections, strings are ordered and thus indexable.
