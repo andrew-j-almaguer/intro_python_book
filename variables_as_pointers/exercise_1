@@ -1,0 +1,9 @@
+In your own words, explain the difference between these two expressions.
+
+my_object1 == my_object2
+my_object1 is my_object2
+
+
+The first expression compares the two objects to determine if their values are
+are equal. The second expression evaluates whether the two variables reference
+the same object.
